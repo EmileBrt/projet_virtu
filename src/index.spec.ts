@@ -7,6 +7,7 @@ describe('Server sysinfo available', () => {
       server.startServer;
       const response = await fetch('http://localhost:8007/api/v1/sysinfo', {method: 'GET'});
       expect(response.ok).toEqual(true);
+      server.closeServer();
   });
 });
 
@@ -16,5 +17,6 @@ describe('Server 404 test', () => {
       server.startServer;
       const response = await fetch('http://localhost:8007/api/v1/ouiouioui', {method: 'GET'});
       expect(response.ok).toEqual(false);
+      server.closeServer();
   });
 });
