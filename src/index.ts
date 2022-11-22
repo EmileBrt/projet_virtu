@@ -54,7 +54,6 @@ export class Server {
   }
   public closeServer(){
     this.http.close();
-    console.log("server is closed");
   }
 }
 
