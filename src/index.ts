@@ -53,7 +53,9 @@ export class Server {
   }).listen(8007);
   }
   public closeServer(){
-    this.http.close();
+    this.http.close.close(() => {
+      console.log("server is closed")
+  })
   }
 }
 
