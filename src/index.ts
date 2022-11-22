@@ -53,7 +53,7 @@ export class Server {
   }).listen(8007);
   }
   public closeServer(){
-    this.http.closeServer();
+    this.http.close();
   }
 }
 
