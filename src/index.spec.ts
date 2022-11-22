@@ -1,8 +1,20 @@
-import { helloWorld } from './index';
+import {Server} from './index';
+import fetch from 'node-fetch';
 
-describe('typeScript test suite', () => {
-  it('should return "Hello world!"', () => {
-    expect.assertions(1);
-    expect(helloWorld()).toBe('Hello world!');
+describe('Server sysinfo available', () => {
+  it('should create server on port 8007', async () => {
+      const server = new Server();
+      server.startServer;
+      const response = await fetch('http://localhost:8007/api/v1/sysinfo', {method: 'GET'});
+      expect(response.ok).toEqual(true);
+  });
+});
+
+describe('Server 404 test', () => {
+  it('should create server on port 8007', async () => {
+      const server = new Server();
+      server.startServer;
+      const response = await fetch('http://localhost:8007/api/v1/ouiouioui', {method: 'GET'});
+      expect(response.ok).toEqual(false);
   });
 });
