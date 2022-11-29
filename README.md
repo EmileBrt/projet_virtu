@@ -68,8 +68,10 @@ Pour réduire la taille nous pouvons n'installer que node, et ne copier que les 
 
 #### Q6
 
-`` sysinfo-api                                        0.0.1     add0ce0b198b   13 days ago     178MB ``
+`` sysinfo-api                                        0.0.1     add0ce0b198b   13 days ago     178MB `` 
+
 `` emilebrt/sysinfo-api                               0.0.2     934702f01ea2   7 days ago      53.8MB ``
+
 Nous avons réussi à économiser 124.2 Mo. Sur un service Kubernet en Cloud, celà nous permettrais d'héberger plus d'instance pour une même taille de stockage.
 
 #### Q8
