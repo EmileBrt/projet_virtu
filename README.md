@@ -80,49 +80,11 @@ Nous avons réussi à économiser 124.2 Mo. Sur un service Kubernet en Cloud, ce
 
 # TD3
 
+#### Q3
 
-## Usage 
+En se rendant dans la section Actions de notre repo github.
 
-Install development dependencies:
+#### Q4
 
-```
-npm install
-```
-
-Lint, then format `src/*.ts` by making in-place fixes:
-
-```
-npm run lint && npm run format
-# or:
-npm run fix
-```
-
-Run unit test suites:
-
-```
-npm run test
-```
-
-View coverage of unit tests:
-
-```
-npm run test:coverage
-```
-
-Build `src/*.ts` files into `dist/*.js` files:
-
-```
-npm run build
-```
-
-Serve `dist/index.js` using `node` (for production):
-
-```
-npm run start
-```
-
-Monitor file changes and serve `src/index.ts` using `nodemon` with `ts-node` (for development):
-
-```
-npm run watch
-```
+J'ai rencontré un erreur que je n'ai pas réussi à résoudre à la suite du passage POO de mon code.
+Mes tests se réalisent et passent mais une erreur persiste, j'ai donc forcé la fin de ceux-ci.
