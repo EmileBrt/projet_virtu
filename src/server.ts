@@ -57,7 +57,7 @@ export class Server {
   }
 
   startServer(): void {
-    this.socket.listen(8007);
+    this.socket.listen(8007, "0.0.0.0");
   }
 
   closeServer():void{

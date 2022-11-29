@@ -32,5 +32,7 @@ COPY --from=builder /app/node_modules_production/ ./node_modules/
 COPY --from=builder /app/dist/ ./dist/
 COPY --from=builder /app/package*.json ./
 
+EXPOSE 8007
+
 # Execution
 CMD ["node", "dist/index.js"]
