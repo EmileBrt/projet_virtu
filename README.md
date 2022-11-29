@@ -88,3 +88,7 @@ En se rendant dans la section Actions de notre repo github.
 
 J'ai rencontré un erreur que je n'ai pas réussi à résoudre à la suite du passage POO de mon code.
 Mes tests se réalisent et passent mais une erreur persiste, j'ai donc forcé la fin de ceux-ci.
+
+# TD4
+
+J'ai essayé de réaliser un déploiement avec railway mais même si le projet se déploie je n'arrive pas à accéder à mon app.
