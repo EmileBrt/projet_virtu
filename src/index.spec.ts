@@ -16,6 +16,7 @@ describe('Server sysinfo available', () => {
 
   afterAll(() => {
     server.closeServer();
+    console.log("Server Closed\n");
   })
 
   it('should create server on port 8007', async () => {
